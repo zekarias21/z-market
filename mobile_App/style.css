@@ -1,0 +1,112 @@
+body{
+    text-align: center;
+    margin-top: 5px;
+    background: #cfbfea;
+    user-select: none; /* selecting text is not allowed */
+}
+
+h1{
+    /* font-family: "Bungee Spice", sans-serif; */
+    font-family: "Dancing Script", cursive;
+    font-size: 40px;
+}
+
+.container{
+    margin: 0 30px;
+    border: 1px solid rgb(21, 21, 98);
+    border-radius: 24px;
+    padding: 15px 10px;
+    background: #0b1d51;
+    height: 350px;
+}
+
+.container img{
+    border-radius: 14px;
+    border: 2px solid rgba(67, 54, 54, 0.922);
+}
+
+.container #input-el{
+    margin: 10px;
+    border: none;
+    border-radius: 24px;
+    padding: 10px 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container #addBtn-el{
+    margin: 10px;
+    border: none;
+    border-radius: 24px;
+    padding: 10px 60px;
+    font-weight: bold;
+    text-align: center;
+    background: rgb(91, 43, 120);
+}
+
+#input-el:hover{
+    border: 3px solid black;
+    background: hsl(12, 96%, 30%);
+}
+#addBtn-el:hover{
+    border: 2px solid black;
+    background: hsl(12, 92%, 30%);
+}
+
+.container ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    color: azure;
+    background-color: rgb(101, 77, 116);
+    margin: 5px 20px;
+    padding: 20px;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    color:black;
+    box-shadow: 5px -5px 10px black;
+    gap: 8px;
+    border-radius: 10px;
+}
+ul li{
+    flex-grow: 1;
+    padding: 10px 20px;
+    margin: 2px;
+    background: rgb(189, 178, 157);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(107, 87, 79);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+ul li:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: #0b1d51;
+}
+
+#clear-btn-el{
+    padding:5px 15px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5px;
+}
+#clear-btn-el i{
+    float: left;
+    padding:5px;
+    color: rgb(120, 3, 3);
+    font-size: 17px;
+}
+#clear-btn-el:hover{
+    background-color: hsl(12, 92%, 30%);
+}
+
+h3{
+    color: rgba(7, 7, 7, 0.576);
+    margin-top: 40px;
+    margin-bottom: 7px;
+}
+
+
+
